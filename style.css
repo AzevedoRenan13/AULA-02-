@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav{
@@ -11,11 +12,10 @@ nav{
 }
 
 nav a{
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
     font-weight: bolder;
     font-size: 18pt;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav a:nth-child(1){
@@ -24,4 +24,20 @@ nav a:nth-child(1){
 
 nav a:hover{
     font-size: 18.5pt;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-image: url(imagens/belugaBanner.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    margin-left: 40px;
+    color: azure;
+    /* text-transform: uppercase; */
 }
